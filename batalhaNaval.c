@@ -14,7 +14,7 @@ int main() {
         }
     }
 
-    // === 2. Declarar os dois navios ===
+    // === 2. Declara os dois navios ===
     // Cada navio tem tamanho 3 e será representado por um vetor unidimensional
     int navioHorizontal[TAM_NAVIO] = {3, 3, 3};
     int navioVertical[TAM_NAVIO] = {3, 3, 3};
@@ -27,14 +27,14 @@ int main() {
     int linhaVertical = 6; // linha inicial do navio vertical
     int colunaVertical = 1; // coluna inicial do navio vertical
 
-    // === 4. Verificar se os navios cabem no tabuleiro ===
+    // === 4. Verificacao se os navios cabem no tabuleiro ===
     // Verifica limites para o navio horizontal
         if (colunaHorizontal + TAM_NAVIO > TAM) {
         printf("Erro: o navio horizontal nao cabe no tabuleiro!\n");
         return 1;
     }
-
-    // Verifica limites para o navio vertical
+    
+    // Verificacao dos limites para o navio vertical
     if (linhaVertical + TAM_NAVIO > TAM) {
         printf("Erro: o navio vertical nao cabe no tabuleiro!\n");
         return 1;
