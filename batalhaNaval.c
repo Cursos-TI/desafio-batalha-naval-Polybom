@@ -29,7 +29,7 @@ int main() {
 
     // === 4. Verificar se os navios cabem no tabuleiro ===
     // Verifica limites para o navio horizontal
-    if (colunaHorizontal + TAM_NAVIO > TAM) {
+        if (colunaHorizontal + TAM_NAVIO > TAM) {
         printf("Erro: o navio horizontal nao cabe no tabuleiro!\n");
         return 1;
     }
