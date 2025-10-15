@@ -71,7 +71,7 @@ int main() {
         for (j = 0; j < TAM; j++) {
             printf("%d ", tabuleiro[i][j]);
         }
-        printf("\n");
+        printf("\n\n");
     }
 
     return 0;
